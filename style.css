@@ -1,0 +1,42 @@
+/* Reset e configuração base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:`Courier New`, monospace;
+font-size: 16px;
+background-color: #ffffff;
+color: #000;
+padding: 20px;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Navegação */
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        background-color: #2CCCD3;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    
